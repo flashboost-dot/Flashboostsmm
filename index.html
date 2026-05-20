@@ -1,309 +1,99 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>FLASH BOOST SMM</title>
+<section id="pricing" style="padding:50px 20px;background:#0f172a;color:white;text-align:center;">
+    <h1 style="font-size:40px;color:#00ff99;">🚀 FLASH BOOST PANEL</h1>
+    <p style="font-size:18px;color:#ccc;">Boostez vos réseaux sociaux rapidement et en sécurité</p>
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <h2 style="margin-top:40px;color:#00ff99;">📱 SERVICES TIKTOK</h2>
+    <div class="pricing-box">
+        <p>1 000 Likes → <strong>1$</strong></p>
+        <p>5 000 Likes → <strong>4$</strong></p>
+        <p>10 000 Likes → <strong>7$</strong></p>
+        <p>1 000 Vues → <strong>1$</strong></p>
+        <p>10 000 Vues → <strong>5$</strong></p>
+        <p>100 000 Vues → <strong>20$</strong></p>
+        <p>1 000 Followers → <strong>3$</strong></p>
+    </div>
+
+    <h2 style="margin-top:40px;color:#00ff99;">📸 SERVICES INSTAGRAM</h2>
+    <div class="pricing-box">
+        <p>1 000 Likes → <strong>1$</strong></p>
+        <p>5 000 Likes → <strong>4$</strong></p>
+        <p>1 000 Vues → <strong>1$</strong></p>
+        <p>10 000 Vues → <strong>5$</strong></p>
+        <p>1 000 Followers → <strong>3$</strong></p>
+    </div>
+
+    <h2 style="margin-top:40px;color:#00ff99;">▶️ SERVICES YOUTUBE</h2>
+    <div class="pricing-box">
+        <p>1 000 Vues → <strong>2$</strong></p>
+        <p>10 000 Vues → <strong>10$</strong></p>
+        <p>1 000 Likes → <strong>3$</strong></p>
+        <p>100 Abonnés → <strong>5$</strong></p>
+    </div>
+
+    <h2 style="margin-top:40px;color:#00ff99;">👍 FACEBOOK</h2>
+    <div class="pricing-box">
+        <p>1 000 Likes → <strong>2$</strong></p>
+        <p>1 000 Followers → <strong>3$</strong></p>
+        <p>10 000 Vues → <strong>5$</strong></p>
+    </div>
+
+    <h2 style="margin-top:40px;color:#00ff99;">🐦 X (TWITTER)</h2>
+    <div class="pricing-box">
+        <p>1 000 Followers → <strong>3$</strong></p>
+        <p>1 000 Likes → <strong>2$</strong></p>
+    </div>
+
+    <h2 style="margin-top:40px;color:#00ff99;">💎 PACKS PROMO</h2>
+
+    <div style="display:flex;flex-wrap:wrap;justify-content:center;gap:20px;">
+
+        <div style="background:#1e293b;padding:20px;border-radius:15px;width:250px;">
+            <h3 style="color:gold;">🥉 PACK STARTER</h3>
+            <p>5 000 TikTok vues</p>
+            <p>1 000 Instagram likes</p>
+            <p>500 Followers TikTok</p>
+            <h2 style="color:#00ff99;">10$</h2>
+            <button style="background:#00ff99;border:none;padding:10px 20px;border-radius:10px;font-weight:bold;">
+                COMMANDER
+            </button>
+        </div>
+
+        <div style="background:#1e293b;padding:20px;border-radius:15px;width:250px;">
+            <h3 style="color:silver;">🥈 PACK BUSINESS</h3>
+            <p>20 000 TikTok vues</p>
+            <p>5 000 Instagram likes</p>
+            <p>2 000 Followers Instagram</p>
+            <h2 style="color:#00ff99;">25$</h2>
+            <button style="background:#00ff99;border:none;padding:10px 20px;border-radius:10px;font-weight:bold;">
+                COMMANDER
+            </button>
+        </div>
+
+        <div style="background:#1e293b;padding:20px;border-radius:15px;width:250px;">
+            <h3 style="color:#ffcc00;">🥇 PACK VIP</h3>
+            <p>100 000 TikTok vues</p>
+            <p>10 000 Instagram likes</p>
+            <p>5 000 Followers TikTok</p>
+            <h2 style="color:#00ff99;">50$</h2>
+            <button style="background:#00ff99;border:none;padding:10px 20px;border-radius:10px;font-weight:bold;">
+                COMMANDER
+            </button>
+        </div>
+
+    </div>
+</section>
 
 <style>
-*{
-margin:0;
-padding:0;
-box-sizing:border-box;
-font-family:'Poppins',sans-serif;
-scroll-behavior:smooth;
+.pricing-box{
+    background:#1e293b;
+    padding:20px;
+    border-radius:15px;
+    width:300px;
+    margin:20px auto;
+    box-shadow:0 0 15px rgba(0,255,153,0.2);
 }
-
-body{
-background:#080b14;
-color:white;
-}
-
-header{
-position:fixed;
-top:0;
-width:100%;
-background:rgba(0,0,0,0.85);
-backdrop-filter:blur(10px);
-display:flex;
-justify-content:space-between;
-align-items:center;
-padding:18px 8%;
-z-index:1000;
-border-bottom:1px solid rgba(255,255,255,.1);
-}
-
-.logo{
-font-size:28px;
-font-weight:700;
-color:#00bfff;
-}
-
-nav a{
-color:white;
-text-decoration:none;
-margin-left:25px;
-font-weight:500;
-transition:.3s;
-}
-
-nav a:hover{
-color:#00bfff;
-}
-
-.hero{
-height:100vh;
-display:flex;
-flex-direction:column;
-justify-content:center;
-align-items:center;
-text-align:center;
-padding:20px;
-background:
-linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.8)),
-url('https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1400&q=80');
-background-size:cover;
-background-position:center;
-}
-
-.hero h1{
-font-size:55px;
-margin-bottom:15px;
-}
-
-.hero span{
-color:#00bfff;
-}
-
-.hero p{
-font-size:18px;
-max-width:700px;
-line-height:1.8;
-color:#ddd;
-}
-
-.btn{
-display:inline-block;
-margin-top:30px;
-padding:15px 35px;
-background:#00bfff;
-color:#000;
-text-decoration:none;
-font-weight:bold;
-border-radius:12px;
-transition:.3s;
-}
-
-.btn:hover{
-transform:scale(1.05);
-}
-
-section{
-padding:90px 8%;
-}
-
-.title{
-text-align:center;
-font-size:40px;
-margin-bottom:50px;
-color:#00bfff;
-}
-
-.cards{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-gap:25px;
-}
-
-.card{
-background:#111827;
-padding:30px;
-border-radius:20px;
-text-align:center;
-transition:.3s;
-border:1px solid rgba(255,255,255,.1);
-}
-
-.card:hover{
-transform:translateY(-10px);
-}
-
-.card h3{
-font-size:24px;
-margin-bottom:15px;
-color:#00bfff;
-}
-
-.price{
-font-size:30px;
-font-weight:bold;
-margin-top:15px;
-color:#00ff88;
-}
-
-.payment-box{
-background:#111827;
-padding:25px;
-border-radius:20px;
-margin-bottom:20px;
-border-left:5px solid #00bfff;
-}
-
-.payment-box h3{
-margin-bottom:10px;
-color:#00bfff;
-}
-
-.contact{
-text-align:center;
-}
-
-.whatsapp{
-background:#25D366;
-color:white;
-padding:16px 35px;
-display:inline-block;
-text-decoration:none;
-font-weight:bold;
-border-radius:12px;
-margin-top:20px;
-}
-
-footer{
-background:#05070d;
-text-align:center;
-padding:25px;
-margin-top:30px;
-color:#aaa;
-}
-
-@media(max-width:768px){
-
-header{
-flex-direction:column;
-}
-
-nav{
-margin-top:15px;
-}
-
-.hero h1{
-font-size:38px;
-}
-
-.title{
-font-size:32px;
-}
+button:hover{
+    cursor:pointer;
+    transform:scale(1.05);
 }
 </style>
-</head>
-
-<body>
-
-<header>
-<div class="logo">⚡ FLASH BOOST</div>
-
-<nav>
-<a href="#accueil">Accueil</a>
-<a href="#services">Services</a>
-<a href="#paiement">Paiement</a>
-<a href="#contact">Contact</a>
-</nav>
-</header>
-
-<section class="hero" id="accueil">
-<h1>Bienvenue sur <span>FLASH BOOST</span></h1>
-
-<p>
-FLASH BOOST est une plateforme SMM professionnelle conçue
-pour accélérer votre croissance sur les réseaux sociaux.
-Obtenez plus de followers, likes, vues, commentaires et engagement
-sur Instagram, TikTok, Facebook et YouTube.
-</p>
-
-<a href="https://wa.me/243844536543" class="btn">
-Commander Maintenant
-</a>
-</section>
-
-<section id="services">
-<h2 class="title">Nos Services</h2>
-
-<div class="cards">
-
-<div class="card">
-<h3>Instagram</h3>
-<p>Followers • Likes • Views</p>
-<div class="price">5$</div>
-</div>
-
-<div class="card">
-<h3>TikTok</h3>
-<p>Followers • Likes • Vues</p>
-<div class="price">8$</div>
-</div>
-
-<div class="card">
-<h3>Facebook</h3>
-<p>Likes • Followers • Engagement</p>
-<div class="price">7$</div>
-</div>
-
-<div class="card">
-<h3>YouTube</h3>
-<p>Subscribers • Watch Time</p>
-<div class="price">10$</div>
-</div>
-
-</div>
-</section>
-
-<section id="paiement">
-<h2 class="title">Méthodes de Paiement</h2>
-
-<div class="payment-box">
-<h3>🟠 Orange Money RDC</h3>
-<p>Numéro : 0844536543</p>
-<p>Nom : JONATHAN KINKELA</p>
-</div>
-
-<div class="payment-box">
-<h3>🔴 Airtel Money</h3>
-<p>Numéro : 0981688695</p>
-<p>Nom : JONATHAN KINKELA</p>
-</div>
-
-<div class="payment-box">
-<h3>🔵 M-PESA</h3>
-<p>Numéro : 0827325619</p>
-<p>Nom : JOYCE MUEPU</p>
-</div>
-
-<div class="payment-box">
-<h3>🟡 Binance Pay</h3>
-<p>ID : 1023552678</p>
-<p>Nom : KEVIN PALANGA</p>
-</div>
-
-</section>
-
-<section id="contact" class="contact">
-<h2 class="title">Commander Maintenant</h2>
-
-<p>Contactez-nous directement sur WhatsApp.</p>
-
-<a class="whatsapp"
-href="https://wa.me/243844536543">
-📲 WhatsApp
-</a>
-</section>
-
-<footer>
-© 2026 FLASH BOOST SMM — Tous droits réservés
-</footer>
-
-</body>
-</html>
